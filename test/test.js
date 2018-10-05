@@ -2,8 +2,8 @@ const Car = require('../Car');
 const chai = require('chai');
 
 const should = chai.should();
-const machFive = new Car('red', true);
-const jalopy = new Car('brown', false);
+const machFive = new Car('red', true, 0, 25);
+const jalopy = new Car('brown', false, 0, 5);
 
 describe('a new car', ()=>{
     it('should have a given color', ()=>{
